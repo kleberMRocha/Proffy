@@ -50,7 +50,7 @@ const TeacherListCard: React.FC<TeacherListCardProps> = ({ children,teacher }) =
                 Preço/hora
              <strong>R$ {teacher.cost}</strong>
             </p>
-            <a  target='_blank' onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`} type="button">
+            <a  target='_blank'  rel="noopener noreferrer" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`} type="button">
                 <img src={whatsappIcon} alt="Whatsapp"/>
                 Entrar em contato
             </a>

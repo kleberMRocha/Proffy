@@ -1,6 +1,6 @@
 ## :rocket: Projeto desenvolvido durante o evento NLW #2 da Rocketseat
 
-![Proffy](https://github.com/kleberMRocha/Proffy/blob/master/web/src/assets/images/landing.svg)
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/89223832-dd796380-d5ad-11ea-9a39-fc852538ca13.png" width="500"/>
 
 Site e App para cadastro de estudantes e professores.
 
@@ -10,3 +10,12 @@ Tecnologias:
 - React Native
 - NodeJs
 - Express
+
+## Aplicação Web 
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-landing.png" width="600"/>
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-list.png" width="600"/>
+
+## Aplicação Mobile 
+
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-landing.png" width="600"/>
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-list.png" width="600"/>

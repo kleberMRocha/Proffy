@@ -16,6 +16,8 @@ Tecnologias:
 <img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-list.png" width="600"/>
 
 ## Aplicação Mobile 
+<div>
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/mobile-home.png" width="300"/>&nbsp;
+<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/mobile-favoritos.png" width="300"/>
+</div>
 
-<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-landing.png" width="600"/>
-<img src="https://github.com/kleberMRocha/Proffy/blob/master/Screenshot/web-list.png" width="600"/>

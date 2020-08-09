@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {View, Image, Text} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {RectButton} from 'react-native-gesture-handler';
@@ -9,11 +9,26 @@ import ClassImg from '../../assets/images/icons/give-classes.png';
 import HeartImg from '../../assets/images/icons/heart.png';
 
 import styles from './style';
+import api from '../../services/api';
 
 
 
 function Lading(){
+
     const {navigate} = useNavigation();
+
+    const [currentyTotal,setTotal] = useState(0);
+    
+    useEffect(()=>{
+        api.get('connections')
+        .then(total =>{
+            const totalConections = total.data.total;
+            setTotal(totalConections);
+        })
+
+    },[]);
+
+   
 
     function HandleNavToClasses(){
         navigate('GiveClasses');
@@ -22,7 +37,6 @@ function Lading(){
     function HandleNavToStudy(){
         navigate('Study');
     }
-
 
     return(
    
@@ -45,7 +59,7 @@ function Lading(){
 
             </View>
             <Text style={styles.totalConections}>
-                Total de 280 Conexões já realizadas{' '}<Image source={HeartImg}/>
+                Total de {currentyTotal} Conexões já realizadas{' '}<Image source={HeartImg}/>
             </Text> 
          </View>
   

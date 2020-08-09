@@ -31,7 +31,7 @@ function TeacherList() {
             await setTeachers(Value.data)
         });
         
-   }
+    }
 
     return (
         <div className="container" id="page-teacher-list">

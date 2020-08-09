@@ -6,8 +6,6 @@ import './style.css';
 import api from '../../services/api';
 
 export interface Teacher {
-
-
         avatar: string;
         bio: string;
         cost: number;
@@ -15,8 +13,6 @@ export interface Teacher {
         name: string;
         subject: string;
         whatsapp: string;
- 
-
 }
 
 interface TeacherListCardProps{
